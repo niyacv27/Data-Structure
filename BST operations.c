@@ -10,7 +10,6 @@ struct btnode
 
 void delete1();
 void insert();
-void delete();
 void inorder(struct btnode *t);
 void create();
 void search(struct btnode *t);
