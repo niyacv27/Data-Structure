@@ -34,7 +34,7 @@ int prims()
 int cost[MAX][MAX];
 int u,v,min_distance,distance[MAX],from[MAX];
 int visited[MAX],no_of_edges,i,min_cost,j;
-//create cost[][] matrix,spanning[][]
+
 for(i=0;i<n;i++)
 for(j=0;j<n;j++)
 {
