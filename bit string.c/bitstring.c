@@ -25,7 +25,8 @@ int main()
 			case 4:difference(); 
 				break; 
 		} 
-		printf("\nDo you wish to continue ?(1/0)\n"); scanf("%d",&wish); 
+		printf("\nDo you wish to continue ?(1/0)\n"); 
+		scanf("%d",&wish); 
 	} while(wish==1);
 }
 void input() 
